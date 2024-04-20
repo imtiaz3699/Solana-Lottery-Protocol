@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Col, Divider, Image, Row, Select, Typography } from "antd";
 
 function Sidebar() {

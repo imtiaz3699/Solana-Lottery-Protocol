@@ -1,5 +1,4 @@
 import { Image } from 'antd'
-import React from 'react'
 
 function MyBets() {
     const arrows = 'w-[42.19px] h-[42.19px] border-[1px] border-[#FFFFFF26] rounded-full flex justify-center items-center'

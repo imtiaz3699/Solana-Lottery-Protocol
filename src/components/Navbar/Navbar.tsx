@@ -1,5 +1,5 @@
 import { Button, Col, Row,Image, Typography } from 'antd'
-import React from 'react'
+
 
 function Navbar() {
     const connectWallet = 'w-[197px] h-[53px] bg-[#5A5A5A] rounded-[75px] text-white shadow-inner shadow-[#282D39] popin-fonts font-normal text-[16.49px] leading-[24.74px]';

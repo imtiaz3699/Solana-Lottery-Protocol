@@ -1,5 +1,5 @@
 import { Image } from "antd";
-import React from "react";
+
 import BetCard from "./BetCard";
 
 function OpenBets() {
