@@ -1,7 +1,7 @@
 
-
 function BetCard() {
   return (
+    
     <div className='max-w-[342px]  bet-card-gradiant '>
         <div className='flex flex-col gap-8'>
             <div className='flex flex-row items-center justify-between'>

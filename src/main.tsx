@@ -7,6 +7,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { GlobalProvider } from './context/provider.tsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+    <GlobalProvider>
     <RouterProvider router = {router}/>
+    </GlobalProvider>
   </React.StrictMode>,
 )
